@@ -1,8 +1,8 @@
-import styles from './SobreMim.module.css'
+import styles from "./SobreMim.module.css";
 
 import PostModelo from "componentes/PostModelo";
-import fotoCapa from 'assets/sobre_mim_capa.png'
-import fotoSobreMim from "assets/sobre_mim_foto.png"
+import fotoCapa from "assets/sobre_mim_capa.png";
+import fotoSobreMim from "assets/sobre_mim_foto.png";
 
 export default function SobreMim() {
     return (
@@ -10,7 +10,10 @@ export default function SobreMim() {
             fotoCapa={fotoCapa}
             titulo="Sobre mim"
         >
-            <h3 className={styles.subtitulo}>Olá, eu sou o Claudio!</h3>
+            <h3 className={styles.subtitulo}>
+                Olá, eu sou o Claudio!
+            </h3>
+
             <img
                 src={fotoSobreMim}
                 alt="Foto do Claudio Matheus sorrindo"
@@ -40,7 +43,7 @@ export default function SobreMim() {
             <p className={styles.paragrafo}>
                 Desde então, tem sido aprenas aprendizados atrás de aprendizados. A Alura é uma escola não só para seus alunos e alunas, mas também para os colaboradores e colaboradoras. Hoje sou muito feliz de ter a oportunidade de trazer esses conteúdos ricos e encantadores para você. Espero que aprenda bastante!
             </p>
-
+            
         </PostModelo>
     )
 }
