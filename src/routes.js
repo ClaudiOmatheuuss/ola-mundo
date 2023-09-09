@@ -6,10 +6,12 @@ import Inicio from './paginas/Inicio';
 import SobreMim from './paginas/SobreMim';
 import Post from "paginas/Post";
 import NaoEncontrada from "paginas/NaoEncontrada";
+import ScrollToTop from "componentes/ScrollToTop";
 
 function AppRoutes() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Menu />
 
       <Routes>
