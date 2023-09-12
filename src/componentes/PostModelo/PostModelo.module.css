@@ -28,6 +28,10 @@
 .postConteudoContainer {
     padding: 2.5rem 7.5rem 4.5rem;
 }
+
+.postConteudoContainer img {
+    max-width: 90%;
+}
  
 @media (max-width: 744px) {
     .postConteudoContainer {
